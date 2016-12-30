@@ -1,0 +1,36 @@
+{
+  "name": "counter",
+  "description": "Hello World",
+  "version": "0.0.0",
+  "author": "Ant White<acwhite@opentable.com>",
+  "repository": "http://github.com/antwhite/oc-webpack",
+  "oc": {
+    "files": {
+      "data": "server.js",
+      "template": {
+        "src": "template.jade",
+        "type": "jade"
+      },
+      "static": [
+        "content"
+      ]
+    },
+    "plugins": [],
+    "parameters": {
+      "counter": {
+        "type": "number",
+        "mandatory": false,
+        "description": "Counter",
+        "example": 0
+      }
+    }
+  },
+  "dependencies": {
+    "react": "*",
+    "react-dom": "*",
+    "object-assign": "*",
+    "react-redux": "*",
+    "redux-thunk": "*",
+    "redux": "*"
+  }
+}

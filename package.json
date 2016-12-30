@@ -1,0 +1,34 @@
+{
+  "name": "oc-react-redux",
+  "version": "1.0.0",
+  "description": "",
+  "main": "webpack.config.js",
+  "scripts": {
+    "start": "./node_modules/oc/src/oc-cli.js dev build/components",
+    "webpack": "./node_modules/webpack/bin/webpack.js ",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": {
+    "name": "Ant White",
+    "email": "acwhite@opentable.com"
+  },
+  "repository": "",
+  "license": "MIT",
+  "dependencies": {
+    "babel-core": "latest",
+    "babel-loader": "latest",
+    "babel-polyfill": "^6.20.0",
+    "babel-preset-es2015": "latest",
+    "babel-preset-react": "^6.16.0",
+    "babel-preset-stage-0": "latest",
+    "file-loader": "^0.9.0",
+    "lodash": "latest",
+    "oc": "^0.33.29",
+    "react": "latest",
+    "react-dom": "^15.4.1",
+    "react-redux": "latest",
+    "redux": "latest",
+    "redux-thunk": "latest",
+    "webpack": "latest"
+  }
+}
